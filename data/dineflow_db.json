@@ -1,0 +1,694 @@
+{
+  "users": [
+    {
+      "id": "usr-hvm-owner",
+      "email": "nitingadak@vegmaharaja.com",
+      "passwordHash": "bec4481eefa33291cfe1381a6639a9955538d9cb7d43067238e46dcd0a86e459d23b3d2ed039e54986c9a2e3e5fef4059e02ae465a861df2cd0e303b35db4253",
+      "salt": "6be60aea11ef8610fa9fa23842ca5a2f",
+      "name": "Nitin Gadak (Owner)",
+      "role": "owner",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:16:55.328Z",
+      "updatedAt": "2026-10-14T14:16:55.328Z"
+    },
+    {
+      "id": "usr-hvm-mgr",
+      "email": "sandiphandage@vegmaharaja.com",
+      "passwordHash": "bec4481eefa33291cfe1381a6639a9955538d9cb7d43067238e46dcd0a86e459d23b3d2ed039e54986c9a2e3e5fef4059e02ae465a861df2cd0e303b35db4253",
+      "salt": "6be60aea11ef8610fa9fa23842ca5a2f",
+      "name": "Sandip Handage (Manager)",
+      "role": "manager",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:16:55.328Z",
+      "updatedAt": "2026-10-14T14:16:55.328Z"
+    },
+    {
+      "id": "usr-hvm-staff",
+      "email": "amitjadhav@vegmaharaja.com",
+      "passwordHash": "bec4481eefa33291cfe1381a6639a9955538d9cb7d43067238e46dcd0a86e459d23b3d2ed039e54986c9a2e3e5fef4059e02ae465a861df2cd0e303b35db4253",
+      "salt": "6be60aea11ef8610fa9fa23842ca5a2f",
+      "name": "Amit Jadhav (Floor Captain)",
+      "role": "staff",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:16:55.328Z",
+      "updatedAt": "2026-10-14T14:16:55.328Z"
+    },
+    {
+      "id": "usr-hvm-cashier",
+      "email": "sunitamore@vegmaharaja.com",
+      "passwordHash": "bec4481eefa33291cfe1381a6639a9955538d9cb7d43067238e46dcd0a86e459d23b3d2ed039e54986c9a2e3e5fef4059e02ae465a861df2cd0e303b35db4253",
+      "salt": "6be60aea11ef8610fa9fa23842ca5a2f",
+      "name": "Sunita More (Billing Desk)",
+      "role": "staff",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:16:55.328Z",
+      "updatedAt": "2026-10-14T14:16:55.328Z"
+    },
+    {
+      "id": "usr-rpe-staff",
+      "email": "harpreetsingh@punjabexpress.com",
+      "passwordHash": "bec4481eefa33291cfe1381a6639a9955538d9cb7d43067238e46dcd0a86e459d23b3d2ed039e54986c9a2e3e5fef4059e02ae465a861df2cd0e303b35db4253",
+      "salt": "6be60aea11ef8610fa9fa23842ca5a2f",
+      "name": "Harpreet Singh (Captain)",
+      "role": "staff",
+      "restaurantId": "royal-punjab-express",
+      "restaurantName": "ROYAL PUNJAB EXPRESS",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:16:55.328Z",
+      "updatedAt": "2026-10-14T14:16:55.328Z"
+    },
+    {
+      "id": "usr-mv872ehf-uiuo",
+      "email": "ganesh@vegmaharaja.com",
+      "passwordHash": "d2e2d76a6fc92f843b7baca7e1e2f5ff4b20acd7bdf9b01f7d535c96cd374da74bceff3d9e05bd0440ad40bc981ca6db774865c45a64eccdc2e603deb3a050eb",
+      "salt": "66e4eaf91e7a8e403104e7ace128ee18",
+      "name": "Ganesh Pawar",
+      "role": "staff",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "isActive": true,
+      "createdAt": "2026-10-14T14:17:41.331Z",
+      "updatedAt": "2026-10-14T14:17:41.331Z"
+    }
+  ],
+  "tables": [
+    {
+      "id": "hvm-t1",
+      "restaurantId": "veg-maharaja-main",
+      "number": "1",
+      "area": "Ground Floor · AC Family Hall",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.657Z"
+    },
+    {
+      "id": "hvm-t2",
+      "restaurantId": "veg-maharaja-main",
+      "number": "2",
+      "area": "Ground Floor · AC Family Hall",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t3",
+      "restaurantId": "veg-maharaja-main",
+      "number": "3",
+      "area": "Ground Floor · Royal Maharaja Sofa",
+      "capacity": 6,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t4",
+      "restaurantId": "veg-maharaja-main",
+      "number": "4",
+      "area": "Garden Courtyard · Open Air",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t5",
+      "restaurantId": "veg-maharaja-main",
+      "number": "5",
+      "area": "First Floor · Family Dining Hall",
+      "capacity": 6,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t6",
+      "restaurantId": "veg-maharaja-main",
+      "number": "6",
+      "area": "First Floor · Royal Cabana",
+      "capacity": 8,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t7",
+      "restaurantId": "veg-maharaja-main",
+      "number": "7",
+      "area": "Terrace Dining · City View",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t8",
+      "restaurantId": "veg-maharaja-main",
+      "number": "8",
+      "area": "Terrace Dining · City View",
+      "capacity": 6,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t9",
+      "restaurantId": "veg-maharaja-main",
+      "number": "9",
+      "area": "Ground Floor · Window Table",
+      "capacity": 2,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "hvm-t10",
+      "restaurantId": "veg-maharaja-main",
+      "number": "10",
+      "area": "VIP Maharaja Suite",
+      "capacity": 10,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "rpe-t1",
+      "restaurantId": "royal-punjab-express",
+      "number": "1",
+      "area": "Main Hall",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "rpe-t2",
+      "restaurantId": "royal-punjab-express",
+      "number": "2",
+      "area": "Main Hall",
+      "capacity": 4,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "rpe-t3",
+      "restaurantId": "royal-punjab-express",
+      "number": "3",
+      "area": "Outdoor Lawn",
+      "capacity": 6,
+      "isActive": true,
+      "createdAt": "2026-10-14T13:14:27.658Z"
+    },
+    {
+      "id": "veg-maharaja-main-t15-mv8725qz",
+      "restaurantId": "veg-maharaja-main",
+      "number": "15",
+      "area": "Rooftop Starlight Cabana",
+      "capacity": 6,
+      "isActive": true,
+      "createdAt": "2026-10-14T14:17:30.011Z"
+    }
+  ],
+  "orders": [
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "t-15",
+      "tableNumber": "15",
+      "areaName": "Dining Area",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-01",
+            "name": "Paneer Butter Masala",
+            "price": 210
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerName": "Prof. Sharma",
+      "customerPhone": "",
+      "specialInstructions": "",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PAID",
+      "orderStatus": "received",
+      "id": "HVM-488222",
+      "createdAt": "2026-10-14T14:18:08.222Z",
+      "updatedAt": "2026-10-14T14:18:08.254Z",
+      "cashReceivedAt": "2026-10-14T14:18:08.254Z",
+      "cashReceivedBy": "Vikram Shinde (Manager)"
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "t-15",
+      "tableNumber": "15",
+      "areaName": "Dining Area",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-01",
+            "name": "Paneer Butter Masala",
+            "price": 210
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerName": "Prof. Sharma",
+      "customerPhone": "",
+      "specialInstructions": "",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PENDING",
+      "orderStatus": "received",
+      "id": "HVM-478478",
+      "createdAt": "2026-10-14T14:17:58.478Z",
+      "updatedAt": "2026-10-14T14:17:58.478Z"
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-ice-01",
+            "name": "Butter Scotch Cone-Cup",
+            "price": 60,
+            "category": "ice_cream_special"
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 120,
+      "tax": 6,
+      "totalAmount": 126,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PENDING",
+      "orderStatus": "received",
+      "id": "HVM-128049",
+      "createdAt": "2026-10-14T13:55:28.049Z",
+      "updatedAt": "2026-10-14T13:55:28.049Z"
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-06",
+            "name": "Paneer Takatak",
+            "price": 270,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-pan-10",
+            "name": "Paneer Angara",
+            "price": 320,
+            "category": "paneer_special"
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 910,
+      "tax": 46,
+      "totalAmount": 956,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "orderStatus": "received",
+      "id": "HVM-082017",
+      "createdAt": "2026-10-14T13:54:42.017Z",
+      "updatedAt": "2026-10-14T13:54:46.962Z",
+      "razorpayDetails": {
+        "orderId": "order_mv868uc1_m6mqe",
+        "paymentId": "pay_MV868XQK6483",
+        "signature": "demo_sig_1791986086604_03er3i",
+        "method": "netbanking",
+        "verifiedAt": "2026-10-14T13:54:46.962Z"
+      }
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-04",
+            "name": "Palak Paneer",
+            "price": 200,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-pan-03",
+            "name": "Paneer Kadhai",
+            "price": 310,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 510,
+      "tax": 26,
+      "totalAmount": 536,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "orderStatus": "received",
+      "id": "HVM-052713",
+      "createdAt": "2026-10-14T13:54:12.713Z",
+      "updatedAt": "2026-10-14T13:54:17.979Z",
+      "razorpayDetails": {
+        "orderId": "order_mv8687pp_9hqaq",
+        "paymentId": "pay_MV868BA07888",
+        "signature": "demo_sig_1791986057496_8r70nc",
+        "method": "card",
+        "verifiedAt": "2026-10-14T13:54:17.979Z"
+      }
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-03",
+            "name": "Paneer Kadhai",
+            "price": 310,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-pan-04",
+            "name": "Palak Paneer",
+            "price": 200,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 510,
+      "tax": 26,
+      "totalAmount": 536,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PENDING",
+      "orderStatus": "received",
+      "id": "HVM-035251",
+      "createdAt": "2026-10-14T13:53:55.251Z",
+      "updatedAt": "2026-10-14T13:53:55.251Z"
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-04",
+            "name": "Palak Paneer",
+            "price": 200,
+            "category": "paneer_special"
+          },
+          "quantity": 2
+        },
+        {
+          "dish": {
+            "id": "hvm-pan-05",
+            "name": "Paneer Maharaja Chef Spe.",
+            "price": 370,
+            "category": "paneer_special"
+          },
+          "quantity": 2
+        },
+        {
+          "dish": {
+            "id": "hvm-tsp-02",
+            "name": "Paneer Paratha",
+            "price": 120,
+            "category": "tandoor_special_paratha"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1260,
+      "tax": 63,
+      "totalAmount": 1323,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "orderStatus": "received",
+      "id": "HVM-994702",
+      "createdAt": "2026-10-14T13:53:14.702Z",
+      "updatedAt": "2026-10-14T13:53:32.825Z",
+      "razorpayDetails": {
+        "orderId": "order_mv866z3u_zrkso",
+        "paymentId": "pay_MV867CC41557",
+        "signature": "demo_sig_1791986012212_v7zyh6",
+        "method": "upi",
+        "verifiedAt": "2026-10-14T13:53:32.825Z"
+      }
+    },
+    {
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "veg-maharaja-main-t12",
+      "tableNumber": "12",
+      "areaName": "Table 12 · Dining Area",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-03",
+            "name": "Paneer Kadhai",
+            "price": 310,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        }
+      ],
+      "subtotal": 310,
+      "tax": 16,
+      "totalAmount": 326,
+      "customerName": "shravani",
+      "customerPhone": "7507518701",
+      "specialInstructions": "",
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "orderStatus": "received",
+      "id": "HVM-952744",
+      "createdAt": "2026-10-14T13:19:12.744Z",
+      "updatedAt": "2026-10-14T13:19:32.187Z",
+      "razorpayDetails": {
+        "orderId": "order_mv84z7e9_nq4jv",
+        "paymentId": "pay_MV84ZLY26364",
+        "signature": "demo_sig_1791983971802_btqgjz",
+        "method": "upi",
+        "verifiedAt": "2026-10-14T13:19:32.187Z"
+      }
+    },
+    {
+      "id": "HVM-108201",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "hvm-t5",
+      "tableNumber": "5",
+      "areaName": "First Floor · Family Dining Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-pan-01",
+            "name": "Paneer Butter Masala",
+            "price": 210,
+            "category": "paneer_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-tan-03",
+            "name": "Butter Naan",
+            "price": 40,
+            "category": "tandoor_special"
+          },
+          "quantity": 3
+        },
+        {
+          "dish": {
+            "id": "hvm-ric-01",
+            "name": "Jeera Rice",
+            "price": 110,
+            "category": "rice_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-bev-01",
+            "name": "Malai Lassi",
+            "price": 50,
+            "category": "beverages"
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 540,
+      "tax": 27,
+      "totalAmount": 567,
+      "customerName": "Rahul Deshmukh",
+      "customerPhone": "9822011223",
+      "specialInstructions": "Make lassi extra chilled with malai",
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "orderStatus": "preparing",
+      "razorpayDetails": {
+        "orderId": "order_hvm_live_9011",
+        "paymentId": "pay_live_78912",
+        "method": "upi",
+        "verifiedAt": "2026-10-14T12:59:27.658Z"
+      },
+      "createdAt": "2026-10-14T12:59:27.658Z",
+      "updatedAt": "2026-10-14T12:59:27.658Z"
+    },
+    {
+      "id": "HVM-108202",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "hvm-t3",
+      "tableNumber": "3",
+      "areaName": "Ground Floor · Royal Maharaja Sofa",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-vsb-01",
+            "name": "Veg Maharaja",
+            "price": 350,
+            "category": "veg_special_bhaji"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-tan-02",
+            "name": "Butter Roti",
+            "price": 20,
+            "category": "tandoor_special"
+          },
+          "quantity": 4
+        },
+        {
+          "dish": {
+            "id": "hvm-dal-03",
+            "name": "Butter Dal Fry",
+            "price": 150,
+            "category": "aapki_pasandi_dal"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-pap-01",
+            "name": "Masala Papad",
+            "price": 40,
+            "category": "papad_special"
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 660,
+      "tax": 33,
+      "totalAmount": 693,
+      "customerName": "Sanjay Kulkarni",
+      "customerPhone": "9850022334",
+      "specialInstructions": "Medium spicy, extra crispy papad",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PENDING",
+      "orderStatus": "received",
+      "createdAt": "2026-10-14T13:06:27.658Z",
+      "updatedAt": "2026-10-14T13:06:27.658Z"
+    },
+    {
+      "id": "HVM-108198",
+      "restaurantId": "veg-maharaja-main",
+      "restaurantName": "HOTEL VEG MAHARAJA",
+      "tableId": "hvm-t2",
+      "tableNumber": "2",
+      "areaName": "Ground Floor · AC Family Hall",
+      "items": [
+        {
+          "dish": {
+            "id": "hvm-bir-01",
+            "name": "Veg Dum Biryani",
+            "price": 250,
+            "category": "biryani_rice_special"
+          },
+          "quantity": 2
+        },
+        {
+          "dish": {
+            "id": "hvm-sal-02",
+            "name": "Veg Rayta",
+            "price": 90,
+            "category": "salad_special"
+          },
+          "quantity": 1
+        },
+        {
+          "dish": {
+            "id": "hvm-bev-02",
+            "name": "Masala Tak / Chach",
+            "price": 25,
+            "category": "beverages"
+          },
+          "quantity": 2
+        }
+      ],
+      "subtotal": 640,
+      "tax": 32,
+      "totalAmount": 672,
+      "customerName": "Priya Joshi",
+      "customerPhone": "9422033445",
+      "paymentMethod": "CASH",
+      "paymentStatus": "PAID",
+      "orderStatus": "served",
+      "cashReceivedAt": "2026-10-14T12:39:27.658Z",
+      "cashReceivedBy": "Staff (Counter)",
+      "createdAt": "2026-10-14T12:29:27.658Z",
+      "updatedAt": "2026-10-14T12:39:27.658Z"
+    }
+  ]
+}

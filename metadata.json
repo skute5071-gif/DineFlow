@@ -1,0 +1,7 @@
+{
+  "name": "DineFlow - Hotel Veg Maharaja",
+  "description": "QR-code-based digital food ordering platform for Hotel Veg Maharaja, a premium pure vegetarian family restaurant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
